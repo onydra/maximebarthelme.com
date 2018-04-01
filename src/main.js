@@ -2,6 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+import '@mdi/font/css/materialdesignicons.min.css'
+import 'reset-css/reset.css'
+
+Vue.use(Vuetify, {
+  theme: {
+    base: '#24282E'
+  }
+})
 
 Vue.config.productionTip = false
 
